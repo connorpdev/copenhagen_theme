@@ -1079,7 +1079,7 @@ ul {
 
 .search {
   border-color: #ddd;
-  border-radius: 30px;
+  border-radius: 5px;
   border-style: solid;
   border-width: 1px;
   display: flex;
@@ -1094,7 +1094,7 @@ ul {
 .search input[type="search"],
 .search .clear-button {
   background-color: #fff;
-  border-radius: 30px;
+  border-radius: 5px;
   border: none;
 }
 

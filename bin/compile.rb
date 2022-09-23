@@ -1,4 +1,4 @@
-#!/usr/bin/env rubysudo apt install dos2unixsudo apt install dos2unix
+#!/usr/bin/env ruby
 require 'json'
 require_relative 'stylesheet_compiler'
 
