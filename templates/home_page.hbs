@@ -65,6 +65,7 @@
   </section>
 
   {{#if help_center.community_enabled}}
+  {{#if settings.show_community_section}}
     <section class="section home-section community">
       <h2>{{t 'community'}}</h2>
       {{#link 'community' class='community-link'}}
@@ -73,6 +74,7 @@
 
       <div class="community-image"></div>
     </section>
+    {{/if}}
   {{/if}}
 
   <section class="section home-section activity">
